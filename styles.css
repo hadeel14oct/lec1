@@ -96,4 +96,60 @@ text-decoration: none;
     transform: translateX(0);
     transition: all 0.4s ease-out;
   }
+.controls {
+  position: fixed;
+  z-index: 10;
+  top: 50%;
+  right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+.controls .control {
+  padding: 1rem;
+  cursor: pointer;
+  background-color:  #454e56;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.7rem 0;
+}
+.controls .control i {
+  font-size: 1.2rem;
+  color:  #b2becd;
+  
+}
+.controls .active-btn {
+  background-color: #27AE60;
+  transition: all 0.4s ease-in-out;
+}
+.controls .active-btn i {
+  color: #FFFFFF;
+}
+
+.theme-btn {
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color:  #454e56;
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.theme-btn i {
+  font-size: 1.4rem;
+  color:  #b2becd;
+  
+      }
+    
   
